@@ -1,0 +1,40 @@
+.about-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: rgb(229, 141, 94);
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .description {
+    margin-top: 2rem;
+    flex: 1;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .description h1{
+    font-size: 3rem;
+  }
+
+  .description p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  
+  .images {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .images img {
+    max-width: 200px;
+    height: auto;
+  }
+  

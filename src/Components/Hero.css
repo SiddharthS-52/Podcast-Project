@@ -1,0 +1,46 @@
+.hero {
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.img {
+    /* width: 10rem; */
+    /* height: 10rem; */
+    position: absolute;
+    object-fit: cover;
+}
+
+.hero-text{ 
+    margin-top: 7rem;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.hero-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgb(72, 210, 235);
+}
+
+.hero-text h3{
+    font-size: 1.3rem;
+    color:rgb(234, 133, 18);
+    padding: 1rem 2rem;
+}
+
+.hero-text .show {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+}

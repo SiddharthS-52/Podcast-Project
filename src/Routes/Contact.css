@@ -1,0 +1,55 @@
+.subscription-form {
+    /* margin: 4rem 6rem; */
+    position: relative;
+    margin-top: 5rem;
+}
+
+.subscription-form h1{
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+}
+
+.form-fill {
+    height: 30rem;
+    margin-top: 2rem;
+    padding-top: 8rem;
+    background-image: url("../Assets/pexels-dlxmediahu-11884525.jpg");
+    margin: 4rem 6rem;
+    align-content: center;
+}
+
+.form-fill h1{
+    color: aliceblue;
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.form-fill p {
+    color: rgb(252, 181, 87);
+}
+
+.form-fill form{
+    padding-top: 4rem;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-fill input {
+    height: 3.5rem;
+    padding: 0.1rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2a2a2a;
+}
+
+.form-fill button {
+    background-color: aquamarine;
+    display: inline;
+    height: 2.5rem;
+    margin-top: 1rem;
+    color: rgb(7, 2, 16);
+}
